@@ -258,9 +258,6 @@ class ImageAnalyzer:
 # ===========================================
 
 if __name__ == "__main__":
-    print("="*80)
-    print("🧠 SMART INSIGHT ENGINE - WEEK 2: IMAGE ANALYSIS TEST")
-    print("="*80)
     
     # Check if test images exist
     test_images = [
@@ -287,7 +284,3 @@ if __name__ == "__main__":
         print("  1. Run: python create_test_image.py")
         print("  2. Or place any image in 'data/' folder")
         print("  3. Then run this script again")
-    
-    print("\n" + "="*80)
-    print("Week 2 - Image Module Complete! ✅")
-    print("="*80)
