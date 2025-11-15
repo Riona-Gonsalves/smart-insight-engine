@@ -12,7 +12,7 @@ Smart Insight Engine is a comprehensive data analysis platform that combines:
 - 📊 **CSV Data Analysis** - Automated cleaning, statistics, and visualization
 - 📝 **Text Analysis** - Sentiment analysis, keyword extraction, and summarization
 - 🖼️ **Image Analysis** - OCR, color analysis, and edge detection
-- 🤖 **AI-Powered Insights** - Integration with OpenAI and Google Gemini
+- 🤖 **AI-Powered Insights** - Integration with Google Gemini
 
 ## ✨ Features
 
@@ -36,7 +36,6 @@ Smart Insight Engine is a comprehensive data analysis platform that combines:
 
 ### AI Integration
 - Mock mode for testing without API costs
-- OpenAI GPT integration for advanced insights
 - Google Gemini API support
 - Customizable AI prompts
 
@@ -97,7 +96,7 @@ The app will open in your browser at `http://localhost:8501`
 - **Visualization:** Plotly, Matplotlib, Seaborn
 - **NLP:** NLTK, TextBlob
 - **Computer Vision:** OpenCV, PIL, Tesseract
-- **AI APIs:** OpenAI, Google Gemini
+- **AI APIs:** Google Gemini
 
 ## 📁 Project Structure
 ```
@@ -137,7 +136,6 @@ smart-insight-engine/
 
 The app works in **mock mode** without API keys. To use real AI:
 
-1. **OpenAI:** Get key from [platform.openai.com/api-keys](https://platform.openai.com/api-keys)
-2. **Google Gemini:** Get key from [makersuite.google.com](https://makersuite.google.com/app/apikey)
-3. Add to `.env` file
+1. **Google Gemini:** Get key from [makersuite.google.com](https://makersuite.google.com/app/apikey)
+2. Add to `.env` file
 
