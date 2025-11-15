@@ -14,6 +14,9 @@ except ImportError:
 class Config:
     GEMINI_API_KEY = ""
     AI_MODEL_GEMINI = "gemini-2.0-flash-lite"
+    AI_MODEL_GEMINI = "gemini-2.0-flash-lite"
+    LAST_CALL = 0           
+    COOLDOWN_SECONDS = 2.0 
     TEMPERATURE = 0.7
     MAX_TOKENS = 1000
 
